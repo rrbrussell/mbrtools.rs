@@ -3,6 +3,14 @@ name = "mbrtools-rs"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "mbrtool"
+path = "src/bin.rs"
+
+[lib]
+name = "libmbr"
+path = "src/libmbr/lib.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
