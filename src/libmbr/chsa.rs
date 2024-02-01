@@ -1,4 +1,6 @@
-pub mod chsa;
+
+const CYLINDER_MASK: u8 = 0xc0;
+const SECTOR_MASK: u8 = 0x3f;
 
 /// A packed CHS structure.
 ///

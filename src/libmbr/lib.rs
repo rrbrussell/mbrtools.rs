@@ -5,8 +5,6 @@ pub mod chsa;
 
 /// The MBR for IBM PC and compatibles has a defined size of 512 bytes.
 pub const MBR_SIZE: u16 = 512;
-const CYLINDER_MASK: u8 = 0xc0;
-const SECTOR_MASK: u8 = 0x3f;
 
 /// The different variations of MBR that exist.
 /// Most of these are historical from my research.
